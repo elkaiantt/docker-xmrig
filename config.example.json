@@ -1,0 +1,38 @@
+{
+    "donate-level": 0,
+    "safe": false,
+
+    "algo": "cryptonight",
+    "av": 0,
+    "cpu-priority": null,
+    "max-cpu-usage": 90,
+    "threads": null,
+
+    "background": false,
+    "colors": true,
+    "log-file": null,
+    "print-time": 60,
+    "syslog": false,
+
+    "api": {
+        "port": 80,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+
+    "retries": 6,
+    "retry-pause": 10,
+
+    "pools": [
+        {
+            "url": "ENTER_POOL_URL",
+            "user": "ENTER_USERNAME",
+            "pass": "ENTER_PASSWORD",
+            "keepalive": true,
+            "nicehash": false,
+            "variant": 1
+        }
+    ]
+}
